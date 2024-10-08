@@ -2,6 +2,9 @@
 
 from flask import Flask, escape , request , render_template
 import pickle
+from flask import Flask, request, render_template
+from markupsafe import escape
+
 
 vector = pickle.load(open("vectorizer.pkl", 'rb'))
 model = pickle.load(open("finalized_model.pkl", 'rb'))
