@@ -1,6 +1,8 @@
+
 from flask import Flask, request, render_template
-import pickle
 from markupsafe import escape
+import pickle
+
 
 # Load the vectorizer and the model
 vector = pickle.load(open("vectorizer.pkl", 'rb'))
