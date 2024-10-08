@@ -1,8 +1,8 @@
 #Implement all this concept by machine learning with flask
 
-from flask import Flask, escape , request , render_template
+from flask import  escape , request , render_template
 import pickle
-from flask import Flask, request, render_template
+
 from markupsafe import escape
 
 
